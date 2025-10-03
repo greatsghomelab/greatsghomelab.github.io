@@ -120,8 +120,8 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: # <gh-username>/<repo>
-    repo_id:
+    repo: greatsghomelab/greatsghomelab.github.io
+    repo_id: R_kgDOP7n9lA"
     category:
     category_id:
     mapping: # optional, default to 'pathname'
