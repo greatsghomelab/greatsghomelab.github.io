@@ -16,7 +16,7 @@ timezone: Asia/Singapore
 
 title: The Great Singapore Homelab # the main title
 
-tagline: "You need a very small space to have lab!" Some minister probably # it will display as the subtitle
+tagline: You need a very small space to have lab! # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A written guide to building great small footprint Homelabs in Singapore HDB flats
