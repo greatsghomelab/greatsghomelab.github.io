@@ -121,7 +121,7 @@ comments:
   # Giscus options › https://giscus.app
   giscus:
     repo: greatsghomelab/greatsghomelab.github.io
-    repo_id: R_kgDOP7n9lA"
+    repo_id: R_kgDOP7n9lA
     category:
     category_id:
     mapping: # optional, default to 'pathname'
