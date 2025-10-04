@@ -15,6 +15,10 @@ date: 2025-10-04 14:53 +0800
 
 ## Introduction
 
+The video guide for this blog:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nGKqqkaGBa4?si=C2i3AvaZB7wzmjgo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 This blog post is about how I setup my minimalist home network that is Family approved, fast speed fibre internet with persistent home lab services and a totally segmented network within a Proxmox cluster to have a safe environment to run Malware Analysis and Reverse Engineering Labs. I will mainly be documenting the configuration of VLANs segmentation from Unifi Cloud Gateway Fiber and tagging them via the managed switch to be used on the Proxmox cluster as it took a while for me to figure out and I could not find such documentation anywhere online. 
 
 There is only one that was done by Alex Kretzschmar using an opnsense VM on tailscale's youtube channel.
