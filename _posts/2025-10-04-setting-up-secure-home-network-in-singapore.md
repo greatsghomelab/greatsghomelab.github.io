@@ -36,9 +36,9 @@ This setup gives these benefits and satisfy my use case:
    
 ## Hardware used   
 If you're familiar with Singapore's Public Housing flats, the space we get is rather small to have a full blown rack like what most of the [r/homelab](https://www.reddit.com/r/homelab/) users have in their homes. The public houses in Singapore comes with a dedicated cabinet for Electrical Distribution board boxes, which is ideal to have all the electronic stuffs in there. So this is my take of homelab in Singapore to have a minimalist, space efficient and somewhat future proofed network. The hardware I used include   
-- Unifi Cloud Gateway Fiber (UCG) [Buy Here](https://s.shopee.sg/9KZAHvLG40)
-- 2.5G Horaco Managed Switch for networking the lenovo m720q mini PCs [Buy Here](https://s.shopee.sg/3LHx90AKvO)
-- u7 pro xg for home wifi. [Buy Here](https://s.shopee.sg/9KZAHvLG40)
+- Unifi Cloud Gateway Fiber (UCG) [Buy Here](https://s.shopee.sg/5AjbL4H3o0)
+- 2.5G Horaco Managed Switch for networking the lenovo m720q mini PCs [Buy Here](https://s.shopee.sg/8Kgd6lKxFe)
+- u7 pro xg for home wifi. [Buy Here](https://s.shopee.sg/3VbNLoJJdV)
    
 ## Configuration on Unifi Cloud Gateway Fiber   
 We'll have to create VLANs on the UCG first. The 2 VLANs created are VLAN10 for HomeLab/persistent services and VLAN99 for reversing labs. Creation of VLANs are straightforward on UCG fibre. I keep a lot of default settings for homelab VLAN. For the reversing lab vlan, I unchecked the Auto-Scale Network feature and isolated the network to prevent any traffic flow to other networks. Below is a screenshot of the configuration on ReversingLab VLAN:
