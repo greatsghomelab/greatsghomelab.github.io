@@ -122,13 +122,29 @@ comments:
   giscus:
     repo: greatsghomelab/greatsghomelab.github.io
     repo_id: R_kgDOP7n9lA
-    category:
-    category_id:
+    category: General
+    category_id: DIC_kwDOP7n9lM4CwNWX
     mapping: # optional, default to 'pathname'
     strict: # optional, default to '0'
     input_position: # optional, default to 'bottom'
     lang: # optional, default to the value of `site.lang`
     reactions_enabled: 1 # optional, default to the value of `1`
+
+# <script src="https://giscus.app/client.js"
+#         data-repo="greatsghomelab/greatsghomelab.github.io"
+#         data-repo-id="R_kgDOP7n9lA"
+#         data-category="General"
+#         data-category-id="DIC_kwDOP7n9lM4CwNWX"
+#         data-mapping="pathname"
+#         data-strict="0"
+#         data-reactions-enabled="1"
+#         data-emit-metadata="0"
+#         data-input-position="bottom"
+#         data-theme="preferred_color_scheme"
+#         data-lang="en"
+#         crossorigin="anonymous"
+#         async>
+# </script>
 
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
