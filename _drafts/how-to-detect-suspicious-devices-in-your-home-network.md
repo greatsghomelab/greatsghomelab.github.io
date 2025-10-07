@@ -45,7 +45,9 @@ To get this mac address, simply click on one of the devices and you will see the
 
 ![macddr](../assets/img/detectthreats/Screenshot%202025-10-06%20at%204.53.04 PM.png)
 
-Ok, you've got the mac address, you kind of some information from UCG fiber on what type of device this is, now what?
+In this section, there are 3 tabs, Overview, Insights and Settings. In insight tab, you can see the Ip address, the network the device is connected to, the traffic activity such as which sites the device has visited and last but not least, you can give it an alias once once you have identified the device in the Settings Tab.
+
+Ok, you've got the mac address from overview, you kind of some information from UCG fiber on what type of device this is, now what?
 
 This is where the online lookup tools like https://dnschecker.org/mac-lookup.php come in for reconning the device. You can simply paste in the mac address and find out more details about them.
 
