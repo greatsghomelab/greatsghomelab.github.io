@@ -15,9 +15,9 @@ tags:
 
 ## Introduction
 
-Here in Singapore, we often take our home Wi-Fi network for granted. Typically, we just have a technician from our Internet Service Providers (ISPs) set up the router, the Optical Network Terminal (ONT), and related equipment in the DB box, and that's the end of it. This usually leaves all our devices—Laptops, PCs, Tablets, and Internet of Things (IoT) devices—on a single, flat network (or perhaps some basic VLANs) without proper segmentation. This setup is perfectly adequate if your only goal is connecting to the internet.
+Here in Singapore, we often take our home Wi-Fi network for granted. Typically, we just have a technician from our Internet Service Providers (ISPs) set up the router, the Optical Network Terminal (ONT), and related equipment in the DB box, and that's the end of it. This usually leaves all our devices—Laptops, PCs, Tablets, and Internet of Things (IoT) devices—on a single, flat network (or perhaps some basic VLANs) without proper segmentation. This setup is perfectly adequate if your only goal is connect to the internet.
 
-However, for power users, this lack of segmentation is a major issue—especially when operating a homelab. I've already walked you through my own home network setup and segmentation strategy in [this article and video](https://greatsghomelab.github.io/posts/setting-up-secure-home-network-in-singapore/). Today, I want to dive deeper into the observability of that network. Specifically, we'll be looking at:
+However, for power users and anyone running a homelab, this lack of segmentation is a major security concern. I've already walked you through my own home network setup and segmentation strategy in [this article and video](https://greatsghomelab.github.io/posts/setting-up-secure-home-network-in-singapore/). Today, I want to dive deeper into the observability of that network. Specifically, we'll explore:
 
 - The overall internal home network activity.
 - Which devices are connected to which network segment.
@@ -27,34 +27,36 @@ However, for power users, this lack of segmentation is a major issue—especiall
 
 ![UCG connected devices](../assets/img/detectthreats/Screenshot%202025-10-06%20at%204.50.47 PM.png)
 
-The screenshot above shows the Unifi Cloud Gateway Fiber (UCG)'s web dashboard that shows all the connected devices connected to the different networks that I have created previously. UCG does its best to identify by hardware vendor for easier identification and is almost complete.
+The screenshot above shows the Unifi Cloud Gateway Fiber (UCG)'s web dashboard that shows all the connected devices connected to the different networks that I have created previously. The UCG does a good job of identifying devices by their hardware vendor, which makes initial identification easier, but this information isn't always complete.
 
 ## Identifying the connected devices
 
-While the UCG provided information is great, there is a lot more we can do with this information to hunt down suspicious devices within our network.
+While the information provided by the UCG is a great starting point, we can dig deeper to hunt for suspicious devices on our network.
 
-To get started, let's have a bit of a refresher.
+To get started, let's have a quick refresher.
 
 ![tcpiposi](../assets/img/detectthreats/osianimated.gif)
 
 Since we're dealing with physical devices, we need to understand that each one is assigned a unique MAC address (Media Access Control) right when it's manufactured. Think of the MAC address as the device's permanent, physical street address.
 
-The network then uses this MAC address to assign an IP address. This is what lets the device move up to Layer 3, the Network Layer, where the actual routing across the internet or between different subnets takes place. Essentially, the MAC address gets it in the door, and the IP address tells the router where to send the data next.
+The network uses this MAC address (Layer 2) to assign an IP address, which allows the device to communicate on Layer 3, the Network Layer. This is where routing across the internet or between different subnets happens. Essentially, the MAC address gets the device in the door, and the IP address tells the router where to send its data.
 
-To get this mac address, simply click on one of the devices and you will see the mac address of the device as follow.
+To find a device's MAC address in the UniFi dashboard, simply click on it, and the details will be displayed as shown below.
 
 ![macddr](../assets/img/detectthreats/Screenshot%202025-10-06%20at%204.53.04 PM.png)
 
-In this section, there are 3 tabs, Overview, Insights and Settings. In insight tab, you can see the Ip address, the network the device is connected to, the traffic activity such as which sites the device has visited and last but not least, you can give it an alias once once you have identified the device in the Settings Tab.
+This panel has three tabs: Overview, Insights, and Settings. In the Insights tab, you can see the device's IP address, the network it's connected to, and its traffic activity, such as which sites it has visited. In the Settings tab, once you have identified the device, you can assign it a helpful alias.
 
-Ok, you've got the mac address from overview, you kind of some information from UCG fiber on what type of device this is, now what?
+Okay, so you have the MAC address from the Overview tab and some basic device information from the UCG. What's next?
 
-This is where the online lookup tools like <https://dnschecker.org/mac-lookup.php> come in for reconning the device. You can simply paste in the mac address and find out more details about them.
+This is where online MAC address lookup tools like <https://dnschecker.org/mac-lookup.php> become useful for further investigation. You can simply paste the MAC address into the tool to find more details about the hardware manufacturer.
 
 ![dnschecker](../assets/img/detectthreats/Screenshot%202025-10-07%20at%201.51.24 PM.png)
 
-In this case, I had no idea LCFC(HeFei) Electronics Technology co.ltd is "Lenovo's largest global R&D and manufacturing base for personal computers". A simple google searching of the name gave a lot more details of the manufacturer
+In this example, the lookup tool identified the vendor as "LCFC (Hefei) Electronics Technology Co., Ltd." I had no idea what this was, but a quick Google search revealed that it's "Lenovo's largest global R&D and manufacturing base for personal computers." This simple step gave me much more confidence in identifying the device.
 
 ## Conclusion
 
-That is all I wanted to cover with this article. Hopefully you learnt something. Please do share your experiences in the comment section of the video, Like if this helped you learn something and subscribe for more content in the future.
+And that's a quick look at how you can use MAC addresses to identify and investigate devices on your home network. I hope you found this guide useful.
+
+Please share your own experiences or tips in the comments section below. If you learned something today, give this video a "Like," and don't forget to subscribe for more content in the future.
