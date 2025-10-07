@@ -23,7 +23,7 @@ However, for power users and anyone running a homelab, this lack of segmentation
 - Which devices are connected to which network segment.
 - How to detect suspicious devices and use their MAC addresses for quick identification.
 
-## First look at the client devices that connected in your network
+## First look at the client devices that are connected in your network
 
 ![UCG connected devices](../assets/img/detectthreats/Screenshot%202025-10-06%20at%204.50.47 PM.png)
 
