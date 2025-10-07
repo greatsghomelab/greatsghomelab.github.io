@@ -49,7 +49,7 @@ In this section, there are 3 tabs, Overview, Insights and Settings. In insight t
 
 Ok, you've got the mac address from overview, you kind of some information from UCG fiber on what type of device this is, now what?
 
-This is where the online lookup tools like https://dnschecker.org/mac-lookup.php come in for reconning the device. You can simply paste in the mac address and find out more details about them.
+This is where the online lookup tools like <https://dnschecker.org/mac-lookup.php> come in for reconning the device. You can simply paste in the mac address and find out more details about them.
 
 ![dnschecker](../assets/img/detectthreats/Screenshot%202025-10-07%20at%201.51.24 PM.png)
 
