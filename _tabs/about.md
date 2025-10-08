@@ -9,4 +9,4 @@ order: 4
 
 # What's this site about?
 
-Welcome! This is the written version and notes documented from the videos at [GreatSingaporeHomelab](https://www.youtube.com/@greatsghomelab) channel.
+Welcome! Here are the notes and transcripts from the videos at [GreatSingaporeHomelab](https://www.youtube.com/@greatsghomelab) channel.
