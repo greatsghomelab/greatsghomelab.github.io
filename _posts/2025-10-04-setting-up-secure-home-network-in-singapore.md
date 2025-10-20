@@ -3,6 +3,7 @@ layout: post
 title: Setting up secure home network in Singapore
 categories:
 - Home-lab
+- Networking
 tags:
 - General-tech
 - Unifi
