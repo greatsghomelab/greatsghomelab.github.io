@@ -46,6 +46,8 @@ To find a device's MAC address in the UniFi dashboard, simply click on it, and t
 
 This panel has three tabs: Overview, Insights, and Settings. In the Insights tab, you can see the device's IP address, the network it's connected to, and its traffic activity, such as which sites it has visited. In the Settings tab, once you have identified the device, you can assign it a helpful alias.
 
+Once you find the device to be an unknown suspicious device, you can choose to block or remove in the Settings after you have gathered additional information from the MAC address which we'll look at in the next section.
+
 Okay, so you have the MAC address from the Overview tab and some basic device information from the UCG. What's next?
 
 This is where online MAC address lookup tools like <https://dnschecker.org/mac-lookup.php> become useful for further investigation. You can simply paste the MAC address into the tool to find more details about the hardware manufacturer.
