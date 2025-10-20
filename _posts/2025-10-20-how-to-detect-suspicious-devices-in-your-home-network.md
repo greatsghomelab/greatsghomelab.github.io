@@ -23,7 +23,7 @@ However, for power users and anyone running a homelab, this lack of segmentation
 
 ## First look at the client devices that are connected in your network
 
-![UCG connected devices](../assets/img/detectthreats/Screenshot%202025-10-06-at-4.50.47-PM.png)
+![UCG connected devices](../assets/img/detectthreats/Screenshot-2025-10-06-at-4.50.47-PM.png)
 
 The screenshot above shows the Unifi Cloud Gateway Fiber (UCG)'s web dashboard that shows all the connected devices connected to the different networks that I have created previously. The UCG does a good job of identifying devices by their hardware vendor, which makes initial identification easier, but this information isn't always complete.
 
@@ -41,7 +41,7 @@ The network uses this MAC address (Layer 2) to assign an IP address, which allow
 
 To find a device's MAC address in the UniFi dashboard, simply click on it, and the details will be displayed as shown below.
 
-![macddr](../assets/img/detectthreats//Screenshot%202025-10-06-at-4.53.04-PM.png)
+![macddr](../assets/img/detectthreats/Screenshot-2025-10-06-at-4.53.04-PM.png)
 
 This panel has three tabs: Overview, Insights, and Settings. In the Insights tab, you can see the device's IP address, the network it's connected to, and its traffic activity, such as which sites it has visited. In the Settings tab, once you have identified the device, you can assign it a helpful alias.
 
@@ -49,7 +49,7 @@ Okay, so you have the MAC address from the Overview tab and some basic device in
 
 This is where online MAC address lookup tools like <https://dnschecker.org/mac-lookup.php> become useful for further investigation. You can simply paste the MAC address into the tool to find more details about the hardware manufacturer.
 
-![dnschecker](../assets/img/detectthreats/Screenshot%202025-10-07-at-1.51.24-PM.png)
+![dnschecker](../assets/img/detectthreats/Screenshot-2025-10-07-at-1.51.24-PM.png)
 
 In this example, the lookup tool identified the vendor as "LCFC (Hefei) Electronics Technology Co., Ltd." I had no idea what this was, but a quick Google search revealed that it's "Lenovo's largest global R&D and manufacturing base for personal computers." This simple step gave me much more confidence in identifying the device.
 
