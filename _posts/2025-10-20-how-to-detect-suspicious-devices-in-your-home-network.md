@@ -6,11 +6,9 @@ title: How to detect suspicious devices in your home network
 tags:
 - Cyber-Security
 - Unifi
-- VLANs
-- Firewall
 - OSINT
 - Open Source Intelligence
-
+- Mac addresses
 ---
 
 ## Introduction
