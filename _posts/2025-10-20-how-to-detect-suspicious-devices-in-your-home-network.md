@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to detect suspicious devices in your home network
+categories:
 - Cyber-Security
 - OSINT
 tags:
