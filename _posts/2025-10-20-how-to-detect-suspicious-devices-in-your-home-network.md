@@ -24,7 +24,7 @@ However, for power users and anyone running a homelab, this lack of segmentation
 
 ## First look at the client devices that are connected in your network
 
-![UCG connected devices](../assets/img/detectthreats/Screenshot-2025-10-06-at-4.50.47-PM.png)
+![UCG connected devices](/assets/img/detectthreats/Screenshot-2025-10-06-at-4.50.47-PM.png)
 
 The screenshot above shows the Unifi Cloud Gateway Fiber (UCG)'s web dashboard that shows all the connected devices connected to the different networks that I have created previously. The UCG does a good job of identifying devices by their hardware vendor, which makes initial identification easier, but this information isn't always complete.
 
