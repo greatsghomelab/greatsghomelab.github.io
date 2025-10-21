@@ -3,14 +3,15 @@ layout: post
 title: Setting up secure home network in Singapore
 categories:
 - Home-lab
-- Networking
+- Network
 tags:
-- General-tech
 - Unifi
 - VLANs
 - Firewall
 - Router
-- Managed Switch
+- Managed-Switch
+- Network-Security
+- Security-Engineering
 date: 2025-10-04 14:53 +0800
 ---
 
