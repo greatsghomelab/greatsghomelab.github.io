@@ -12,9 +12,10 @@ tags:
 
 There are 2 steps when allocating more space on running production linux machines.
 
-1. Physical partition space allocation
-2. Disk volume reclamation
-
+- [Introduction](#introduction)
+- [Physical partition space allocation](#physical-partition-space-allocation)
+- [File system reclamation](#file-system-reclamation)
+   
 ## Physical partition space allocation
 
 Check if the physical partition where your Linux OS is on has all the space allocated to it. In the photo below, the physical disk has only 32GB allocated and the root partition is actually using all physical disk space.
@@ -41,7 +42,7 @@ We allocate all the diskspace by inputting -0
 
 This concludes the physical partition space allocation process. Now, let's get into the Disk volume reclamation for the actual file system.
 
-## Disk volume reclamation
+## File system reclamation
 
 We can see from lsblk output that although the physical disk is fully allocated, the linux logical filesystem is still not reclaimed.
 
