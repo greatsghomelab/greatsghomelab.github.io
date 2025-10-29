@@ -15,7 +15,7 @@ There are 2 steps when allocating more space on running production linux machine
 - [Introduction](#introduction)
 - [Physical partition space allocation](#physical-partition-space-allocation)
 - [File system reclamation](#file-system-reclamation)
-   
+
 ## Physical partition space allocation
 
 Check if the physical partition where your Linux OS is on has all the space allocated to it. In the photo below, the physical disk has only 32GB allocated and the root partition is actually using all physical disk space.
