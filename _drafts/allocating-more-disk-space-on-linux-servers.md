@@ -1,12 +1,10 @@
 ---
 layout: post
-title: Allocating more disk space on encrypted linux servers
+title: Allocating more disk space on running linux servers
 categories:
 - Home-lab
 - Systems
 tags:
-- Cryptography
-- Encryption
 - Security-Engineering
 ---
 
