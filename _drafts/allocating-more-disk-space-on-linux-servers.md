@@ -10,7 +10,7 @@ tags:
 
 ## Introduction
 
-There are 2 steps when allocating more space.
+There are 2 steps when allocating more space on running production linux machines.
 
 1. Physical partition space allocation
 2. Disk volume reclamation
