@@ -6,10 +6,11 @@ categories:
 - Systems
 tags:
 - Security-Engineering
+date: 2025-10-30 08:47 +0800
 ---
-
 ## Introduction
 
+Knowing how to allocate more disk space on running linux machine is an important skill especially when it comes to production servers. In this walkthrough, I will be showing you how this is done.
 There are 2 steps when allocating more space on running production linux machines.
 
 - [Introduction](#introduction)
@@ -24,7 +25,7 @@ Check if the physical partition where your Linux OS is on has all the space allo
 
 Running the `df -h` command lets us see that the logical filesystem usage of more than 82% already on the machie.
 
-In this case, we will have to allocate more disk space from the hypervisor to the virtual machine. 
+In this case, we will have to allocate more disk space from the hypervisor to the virtual machine.
 
 ![hypervisordisk](/assets/img/diskresize/diskaction.png)
 
