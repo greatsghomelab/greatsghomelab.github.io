@@ -10,6 +10,10 @@ date: 2025-10-30 08:47 +0800
 ---
 ## Introduction
 
+Video guide for this doc:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4oNJT_PW-jo?si=HRfrMssLt9ITXxEB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 Knowing how to allocate more disk space on running linux machine is an important skill especially when it comes to production servers. In this walkthrough, I will be showing you how this is done.
 There are 2 steps when allocating more space on running production linux machines.
 

@@ -14,6 +14,10 @@ tags:
 
 ## Introduction
 
+Video guide for this doc:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uUqQjqHVWDQ?si=MLqPHUTBZKcetP2d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 Here in Singapore, we often take our home Wi-Fi network for granted. Typically, we just have a technician from our Internet Service Providers (ISPs) set up the router, the Optical Network Terminal (ONT), and related equipment in the DB box, and that's the end of it. This usually leaves all our devices—Laptops, PCs, Tablets, and Internet of Things (IoT) devices—on a single, flat network (or perhaps some basic VLANs) without proper segmentation. This setup is perfectly adequate if your only goal is connect to the internet.
 
 However, for power users and anyone running a homelab, this lack of segmentation is a major security concern. I've already walked you through my own home network setup and segmentation strategy in [this article and video](https://greatsghomelab.github.io/posts/setting-up-secure-home-network-in-singapore/). Today, I want to dive deeper into the observability of that network. Specifically, we'll explore:
