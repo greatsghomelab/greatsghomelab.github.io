@@ -12,6 +12,8 @@ tags:
 
 ## Introduction
 
+## Architecture of Ansible Semaphore 
+
 ## Building the Ansible Semaphore UI infrastructure
 
 ## Managing the inventory and assets using Ansible Semaphore
