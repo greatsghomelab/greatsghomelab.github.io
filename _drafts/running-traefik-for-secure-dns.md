@@ -1,6 +1,6 @@
 ---
 layout: post
-title: _Running Traefik for securing DNS
+title: running traefik for secure dns
 categories:
 - Home-lab
 - Network
@@ -11,7 +11,6 @@ tags:
 - Traefik
 - Network-Security
 ---
-
 ## Introduction
 
 ## Traefik and Unifi DNS architecture
