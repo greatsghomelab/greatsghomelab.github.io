@@ -12,6 +12,9 @@ tags:
 
 ## Introduction
 
+When you are running a homelab at home as a hobbyist, you essentially become the whole engineering department of your house. So it is very important to automate a lot of the infrastructure components above the hypervisor level. Ansible is a very good tool that helps automate infrastructure configuration.
+
+
 ## Architecture of Ansible Semaphore 
 
 ## Building the Ansible Semaphore UI infrastructure
