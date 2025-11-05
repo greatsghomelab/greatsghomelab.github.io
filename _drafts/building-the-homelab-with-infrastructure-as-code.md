@@ -17,6 +17,10 @@ When you are running a homelab at home as a hobbyist, you essentially become the
 
 ## Architecture of Ansible Semaphore 
 
+- Ansible semaphore UI container
+- Ansible sempahore runner
+- All your infrastructure inventory identified as code
+
 ## Building the Ansible Semaphore UI infrastructure
 
 ## Managing the inventory and assets using Ansible Semaphore
